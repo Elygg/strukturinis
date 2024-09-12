@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/eligi/Documents/sp/9-12-2024/bandymas.cpp" "CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.obj" "gcc" "CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.obj.d"
   "C:/Users/eligi/Documents/sp/main.cpp" "CMakeFiles/sp.dir/main.cpp.obj" "gcc" "CMakeFiles/sp.dir/main.cpp.obj.d"
   )
 

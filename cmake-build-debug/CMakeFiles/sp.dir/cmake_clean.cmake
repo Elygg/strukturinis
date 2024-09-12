@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.obj"
+  "CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.obj.d"
   "CMakeFiles/sp.dir/main.cpp.obj"
   "CMakeFiles/sp.dir/main.cpp.obj.d"
   "libsp.dll.a"

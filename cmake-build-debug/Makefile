@@ -128,6 +128,30 @@ sp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sp.dir\build.make CMakeFiles/sp.dir/build
 .PHONY : sp/fast
 
+9-12-2024/bandymas.obj: 9-12-2024/bandymas.cpp.obj
+.PHONY : 9-12-2024/bandymas.obj
+
+# target to build an object file
+9-12-2024/bandymas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sp.dir\build.make CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.obj
+.PHONY : 9-12-2024/bandymas.cpp.obj
+
+9-12-2024/bandymas.i: 9-12-2024/bandymas.cpp.i
+.PHONY : 9-12-2024/bandymas.i
+
+# target to preprocess a source file
+9-12-2024/bandymas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sp.dir\build.make CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.i
+.PHONY : 9-12-2024/bandymas.cpp.i
+
+9-12-2024/bandymas.s: 9-12-2024/bandymas.cpp.s
+.PHONY : 9-12-2024/bandymas.s
+
+# target to generate assembly for a file
+9-12-2024/bandymas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sp.dir\build.make CMakeFiles/sp.dir/9-12-2024/bandymas.cpp.s
+.PHONY : 9-12-2024/bandymas.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... sp
+	@echo ... 9-12-2024/bandymas.obj
+	@echo ... 9-12-2024/bandymas.i
+	@echo ... 9-12-2024/bandymas.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
